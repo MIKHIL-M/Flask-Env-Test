@@ -1,0 +1,8 @@
+applications:
+- name: Flask-API-V1
+  disk_quota: 256M
+  instances: 1
+  memory: 128M
+  routes:
+  - route: Flask-api-v1.eu-gb.mybluemix.net
+  stack: cflinuxfs3
